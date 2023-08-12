@@ -3,4 +3,6 @@
 #import the package function and use to download bulk google images
 
 from pygoogle_image import image as pi
-pi.download(keywords='Spider Man', limit=10)
+KW = input("Enter keyword to download images:")
+limter = int(input("Enter how many images you want to download: "))
+pi.download(keywords=KW , limit=limter)
